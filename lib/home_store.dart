@@ -1,13 +1,3 @@
-// store/index.dart
-import 'package:redux/redux.dart';
-
-//步骤2，用于在步骤三中做消息区分与消息发送
-class IncrementAction {
-  final payload;
-
-  IncrementAction({this.payload});
-}
-
 class AppState {
   int count;
 
@@ -26,6 +16,13 @@ class AppState {
       count: count ?? this.count,
     );
   }
+}
+
+//步骤2，用于在步骤三中做消息区分与消息发送
+class IncrementAction {
+  final payload;
+
+  IncrementAction({this.payload});
 }
 
 //步骤1的数据共享类是count,一个基本数据类型
