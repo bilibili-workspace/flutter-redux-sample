@@ -1,22 +1,4 @@
-class AppState {
-  int count;
-
-  AppState({
-    this.count,
-  });
-
-  static AppState initialState() {
-    return AppState(
-      count: 0,
-    );
-  }
-
-  AppState copyWith({count}) {
-    return AppState(
-      count: count ?? this.count,
-    );
-  }
-}
+import 'app_state.dart';
 
 //步骤2，用于在步骤三中做消息区分与消息发送
 class IncrementAction {
