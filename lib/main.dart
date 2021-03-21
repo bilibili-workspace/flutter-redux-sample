@@ -38,7 +38,7 @@ class FlutterReduxApp extends StatelessWidget {
             ),
             floatingActionButton: StoreConnector<AppState, VoidCallback>(
               converter: (Store store) {
-                return () => store.dispatch(IncrementAction(payload: {print("object")})); //发送数据
+                return () => store.dispatch(IncrementAction(payload: 1)); //发送数据
               },
               builder: (BuildContext context, VoidCallback callback) {
                 return FloatingActionButton(
