@@ -1,5 +1,19 @@
 # flutter_app
 
+- flutter_redux 使用示例
+
+# 运行配置
+
+- sdk 版本 1.22.3
+
+```java
+Flutter 1.22.3 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 8874f21e79 (5 months ago) • 2020-10-29 14:14:35 -0700
+Engine • revision a1440ca392
+Tools • Dart 2.10.3
+```
+
+# 稿子
 
 今天给大家介绍一个非常牛逼的框架
 
@@ -44,15 +58,3 @@ redux 的所有功能都是基于 Store 对象进行的
 细心地同学可能发现，我们这里用 IncrementAction 做了个
 
 那么，感谢大家的三连或者关注支持，我是黎明韭菜，我们下期视频再见
-
-
-# 运行配置
-
-- sdk 版本 1.22.3
-
-```java
-Flutter 1.22.3 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision 8874f21e79 (5 months ago) • 2020-10-29 14:14:35 -0700
-Engine • revision a1440ca392
-Tools • Dart 2.10.3
-```
