@@ -17,3 +17,18 @@ class AppState {
     );
   }
 }
+
+class IncrementAction {
+  final payload;
+
+  IncrementAction({this.payload});
+}
+
+AppState counterReducer(AppState state, dynamic action) {
+  switch (action.runtimeType) {
+    case IncrementAction:
+      return state.copyWith(count: state.count + action.payload);
+  }
+
+  return state;
+}
